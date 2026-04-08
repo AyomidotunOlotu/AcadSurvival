@@ -6,7 +6,7 @@
 <title>Academic Survival Without Burning Out</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
 <style>
   :root {
     --bg: #080808;
@@ -106,17 +106,6 @@
   }
   .mobile-menu button:hover { color: var(--text); background: var(--bg3); }
   .mobile-menu button.active { color: var(--green); background: var(--green-dim); }
-
-  /* COMPANION BANNER */
-  .companion-banner {
-    background: linear-gradient(90deg, rgba(139,92,246,0.07), rgba(245,158,11,0.07));
-    border-bottom: 1px solid rgba(139,92,246,0.15);
-    padding: 0.55rem 1.5rem; text-align: center;
-    font-size: 0.8rem; color: var(--text2);
-    position: fixed; top: 62px; left: 0; right: 0; z-index: 998;
-  }
-  .companion-banner a { color: var(--amber); text-decoration: none; font-weight: 600; transition: color 0.2s; }
-  .companion-banner a:hover { color: var(--text); }
 
   /* PAGE CONTENT */
   .page-content { padding-top: 116px; }
@@ -464,12 +453,6 @@
   <button onclick="go('stories');closeMenu()" id="m-stories">🙌 Real Stories</button>
   <button onclick="go('tools');closeMenu()" id="m-tools">⚡ Tools & Wins</button>
 </div>
-
-<!-- COMPANION BANNER -->
-<div class="companion-banner">
-  💸 Also read: <a href="#" onclick="alert('Companion guide: How to Make Your First ₦50k–₦100k as a Student — coming soon! Part of The Student Edge series.');return false;">How to Make Your First ₦50k–₦100k as a Student →</a>
-</div>
-
 
 <!-- ═══════════ HOME ═══════════ -->
 <div class="page active" id="page-home">
